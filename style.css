@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(90deg, #8ed2ffdb, #ffcfccd9);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  background-color:rgb(0 232 228 / 60%);
+  padding: 3rem;
+  border-radius: 2rem;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgb(50 50 93 / 75%) 0px 50px 100px -10px, rgb(0 0 0 / 75%) 0px 30px 60px -15px, rgb(10 37 64 / 75%) 0px -2px 6px 3px inset;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+.title:hover {
+  color: black;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.character-amount-container {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  width: 2rem;
+}
+
+.password-display {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  height: auto;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+}
+
+#btn {
+  grid-column: span 2;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: azure;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+#btn:hover {
+  background-color: rgb(49, 184, 218);
+  transform: scale(1.1);
+}
